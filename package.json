@@ -27,7 +27,7 @@
     "gatsby-source-strapi": "^0.0.10",
     "gatsby-source-strapi-multiple-images": "^0.0.11",
     "gatsby-transformer-sharp": "^2.2.6",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-sass": "^4.13.0",
     "preact": "^10.5.5",
     "preact-render-to-string": "^5.1.11",
@@ -85,6 +85,6 @@
     "url": "https://github.com/HughxDev/hughx-site/issues"
   },
   "peerDependencies": {
-    "moment": "^2.24.0"
+    "moment": "^2.29.4"
   }
 }
