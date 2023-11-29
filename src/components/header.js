@@ -200,7 +200,7 @@ const SiteHeader = ( { siteTitle, author, jobTitle } ) => {
         </Heading>
       </hgroup> */ }
       <Heading className="h2 hx hx--modest">
-        <span className="author">{ author }</span><span className="comma sr-only">, </span><span className="job-title">{ jobTitle }</span>
+        <span className="author">{ author }</span>{ " " }<span className="job-title">{ jobTitle }</span>
       </Heading>
       <Nav>
         <h2 hidden>Main Navigation</h2>
