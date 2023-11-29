@@ -38,7 +38,8 @@ const Product = styled.article`
 
   & > :last-child {
     margin-bottom: 0;
-    align-self: end;
+    // align-self: end;
+    align-self: start;
   }
 `;
 
@@ -192,9 +193,9 @@ class Packages extends React.PureComponent {
           <Product>
             <ProductName>Audit</ProductName>
             <ProductDescription>
-              <p>You’ll get a list of actionable feedback from me on ways to improve your app or site. For an additional fee of ${ videoAddOnPrice }, I’ll send you a screencast of me using your product with real-time commentary. (Fee waived if you give me permission to use the video for marketing purposes.)</p>
+              <p>You’ll get a list of actionable feedback from me on ways to improve your app or site. For an additional fee{ /*of ${ videoAddOnPrice },*/ } I’ll send you a screencast of me using your product with real-time commentary. (Fee waived if you give me permission to use the video for marketing purposes.)</p>
             </ProductDescription>
-            <ProductPricing>
+            { /* <ProductPricing>
               <dl>
                 <dt hidden>Price</dt>
                 <ProductPrice
@@ -204,16 +205,16 @@ class Packages extends React.PureComponent {
               </dl>
               { /* <ProductCTA>
                 <OrderFormModal></OrderFormModal>
-              </ProductCTA> */ }
-              { /* <OrderForm id="audit-order-form" onSubmit={ this.onSubmit }></OrderForm> */ }
-            </ProductPricing>
+              </ProductCTA>
+              { /* <OrderForm id="audit-order-form" onSubmit={ this.onSubmit }></OrderForm>
+            </ProductPricing> */ }
           </Product>
           <Product>
             <ProductName>Iterate</ProductName>
             <ProductDescription>
               <p>I’ll work hands-on with your team to improve your app or site, one week at a time. Add a new feature, fix bugs, give your <abbr>UI</abbr> a facelift, improve your process… If it can be done in a week, we’ll make it happen.</p>
             </ProductDescription>
-            <ProductPricing>
+            { /* <ProductPricing>
               <dl>
                 <dt hidden>Price</dt>
                 <ProductPrice
@@ -235,11 +236,11 @@ class Packages extends React.PureComponent {
                 <dd>
                   <TextArea id="project-description" rows="5"></TextArea>
                 </dd></dl>
-              </Modal> */ }
+              </Modal>
               { /* <ProductCTA>
                 <button>Get in touch</button>
-              </ProductCTA> */ }
-            </ProductPricing>
+              </ProductCTA>
+            </ProductPricing> */ }
           </Product>
         </TwoColumns>
         <FinePrint style={ { "position": "relative", "marginTop": ".25rem" } }>
