@@ -15,6 +15,7 @@ const npmMinifyLogoAlt = "/images/logos/alt/npm-minify.jpg";
 
 const npmLogo = "/images/logos/npm.svg";
 const eslintConfigHughxLogo = "/images/logos/eslint-config-hughx.svg";
+const eslintConfigHughxTsLogo = "/images/logos/eslint-config-hughx-ts.svg";
 const componentCliLogo = "/images/logos/component-cli.svg";
 const standardStandardsLogo = "/images/logos/standard-standards.svg";
 
@@ -116,6 +117,48 @@ const Software = () => (
         } }
       />
       <SoftwareCard
+        name="eslint-config-hughx"
+        logo={ {
+          "src": eslintConfigHughxLogo,
+          "width": 150,
+          "height": 150,
+        } }
+        tagline="Hughx ESLint Configuration"
+        description="Sensible defaults for JavaScript coding style."
+        url="https://github.com/HughxDev/eslint-config-hughx"
+        headingLevel="3"
+        github={ {
+          "package": "HughxDev/eslint-config-hughx",
+          "showStars": false,
+        } }
+        npm={ {
+          "package": "eslint-config-hughx",
+          "fromDate": "2019-03-29",
+          // "downloadScale": "monthly"
+        } }
+      />
+      <SoftwareCard
+        name="eslint-config-hughx-ts"
+        logo={ {
+          "src": eslintConfigHughxTsLogo,
+          "width": 150,
+          "height": 150,
+        } }
+        tagline="Hughx ESLint Configuration (TS)"
+        description="Sensible defaults for TypeScript coding style."
+        url="https://github.com/HughxDev/eslint-config-hughx"
+        headingLevel="3"
+        github={ {
+          "package": "HughxDev/eslint-config-hughx-ts",
+          "showStars": false,
+        } }
+        npm={ {
+          "package": "eslint-config-hughx-ts",
+          "fromDate": "2021-07-16",
+          // "downloadScale": "monthly"
+        } }
+      />
+            <SoftwareCard
         name="npm-minify"
         logo={ {
           "src": npmMinifyLogo,
@@ -136,27 +179,6 @@ const Software = () => (
         } }
         npm={ {
           "package": "npm-minify",
-          "fromDate": "2019-03-29",
-          // "downloadScale": "monthly"
-        } }
-      />
-      <SoftwareCard
-        name="eslint-config-hughx"
-        logo={ {
-          "src": eslintConfigHughxLogo,
-          "width": 150,
-          "height": 150,
-        } }
-        tagline="Hughx ESLint Configuration"
-        description="Sensible defaults for JavaScript coding style."
-        url="https://github.com/HughxDev/eslint-config-hughx"
-        headingLevel="3"
-        github={ {
-          "package": "HughxDev/eslint-config-hughx",
-          "showStars": false,
-        } }
-        npm={ {
-          "package": "eslint-config-hughx",
           "fromDate": "2019-03-29",
           // "downloadScale": "monthly"
         } }
