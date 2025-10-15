@@ -167,7 +167,7 @@ const Advantages = () => (
         />
         <div>
           <AdvantageHeading>Empathetic.</AdvantageHeading>
-          <p>50% of the world’s population isn’t online yet<a id="citation-1" href="#footnote-1"><sup>1</sup></a>, but they soon will be. As this happens, they will largely arrive by way of mobile, not desktop. And not on the iPhone 11, either—more like the iPhone from 2011. This means sites and apps designed for Westerners with the latest tech will break for the rest of the world.</p>
+          <p>50% of the world’s population isn’t online yet<a id="citation-1" href="#footnote-1"><sup>1</sup></a>, but they soon will be. As this happens, they will largely arrive by way of mobile, not desktop. And not on the iPhone 17, either—more like the iPhone from 2017. This means sites and apps designed for Westerners with the latest tech will break for the rest of the world.</p>
           <p>I believe the Internet should be for everyone. I keep accessibility, performance, and user friendliness top-of-mind at every stage of development. This helps your product reach the broadest possible audience. It’s not just good karma, it’s good business.</p>
         </div>
       </Section>
